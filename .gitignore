@@ -8,6 +8,7 @@ wp-config/wp-config.default.php
 wp-config/wp-config.env.php
 /wp-content/uploads
 /wp-content/cache
+/dist
 *.zip
 node_modules
 package-lock.json
