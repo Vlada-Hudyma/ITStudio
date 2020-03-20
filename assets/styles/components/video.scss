@@ -1,0 +1,85 @@
+
+.video {
+  display: flex;
+  width: 100%;
+  background:#F6F6F8;
+  height: 702px;
+  &__wrap {
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(./assets/img/video.png);
+    height: 326px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__content {
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.video__content-title {
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 36px;
+  border-bottom: 1px solid #E0E0E0;
+  & h2 {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  & p {
+    font-size: 20px;
+  }
+}
+
+.video__content-mailing {
+  text-align: center;
+  & h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #000000;
+  }
+  & p {
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #999999;
+  }
+  & h5 {
+    font-family: Montserrat;
+    font-size: 13px;
+    color: #999999;
+  }
+  & form {
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    width: 463px;
+    height: 45px;
+    margin: auto;
+  }
+}
+
+#asd_subscribe_submit {
+  width: 190px;
+  height: 45px;
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 0px 30px 30px 0px;
+}
+
+#enter_email  {
+  width: 267px;
+  height: 31px;
+  font-family: Montserrat;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999999;
+  border: none;
+  text-align: center;
+  border-radius: 50%;
+}

@@ -1,0 +1,208 @@
+body {
+    position: relative;
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 14px;
+    overflow-x: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  @media screen and (max-width: 458px) {
+    body {
+        width: 100%;
+    }
+    .main-menu__elements li {
+        padding-left: 20px;
+    }
+    .main-menu__element:hover {
+        padding-bottom: 9px;
+    }
+    .site-logo {
+        display: none;
+    }
+    .containet-naw__content {
+        padding-left: 0;
+    }
+    .header-wrap {
+        height: 34px;
+    }
+    .home-content h3 {
+        font-size: 23px;
+        padding-top: 134px;
+    }
+    .home-content h2 {
+        font-size: 32px;
+        margin: 0;
+        line-height: 62px;
+        padding: 0;
+    }
+    .project {
+        padding: 0;
+    }
+    .project-content {
+        width: 80%;
+    }
+    .title__main {
+        width: 100%;
+    }
+    .services__items-wrap {
+        flex-wrap: wrap;
+    }
+    .services__items {
+        margin-top: 0px;
+    }
+    .topPart {
+        padding-top: 0;
+    }
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 30px;
+    }
+    .picture {
+        display: none;
+    }
+    .aboutUs {
+        background: url('../../img/work.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .standards h2 {
+        color: #e4e3e3;
+        text-align: center;
+    }
+    .standards p {
+        color: #eeecec;
+        text-align: justify;
+    }
+    .number {
+        color: #e4e3e3;
+        font-size: 31px;
+    }
+    .counter p {
+        color: #eeecec;
+    }
+    .counter__number img {
+        width: 24px;
+        height: 32px;
+    }
+    .counter__number {
+        padding-right: 10px;
+    }
+    .aboutUs__wrap {
+        padding-left: 44px;
+    }
+    .heading {
+        padding-top: 15px;
+    }
+    .heading h2 {
+        width: 50%;
+    }
+    .key {
+        align-self: center;
+    }
+    .mainContent {
+        flex-flow: column wrap;
+        padding-bottom: 6px;
+        margin-bottom: 26px;
+    }
+    .mainContent__item {
+        width: 100%;
+    }
+    .mainContent__item h3 {
+        font-size: 18px;
+        color: rgb(68, 76, 92);
+        text-align: center;
+    }
+    .mainContent__item p {
+        color: #333232;
+        text-align: justify;
+    }
+    .example__content-title {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 29px;
+    }
+    .example__content-title h2 {
+        font-size: 25px;
+    }
+    .example__content-gallery {
+        padding-bottom: 14px;
+    }
+    .example__content-button {
+        padding-bottom: 22px;
+    }
+    iframe {
+        width: 350px; 
+        height: 192px; 
+    }
+    .video {
+        height: 552px;
+    }
+    .video__wrap {
+        height: 266px;
+    }
+    .video__content-title {
+        padding-bottom: 14px;
+    }
+    .video__content-mailing form {
+        width: 331px;
+        height: 34px;
+    }
+    #asd_subscribe_submit {
+        width: 190px;
+        height: 34px;
+    }
+    #enter_email {
+        width: 135px;
+    }
+    .footer__wrapper {
+        padding: 0;
+    }
+    .footer__all {
+        flex-wrap: nowrap;
+    }
+    .footer__contacts li a {
+        line-height: 33px;
+    }
+    .footer__links li a {
+        line-height: 33px;
+    }
+    .footer__projects li a {
+        line-height: 33px;
+    }
+    .footer__contacts {
+        padding: 0;
+        width: 299px;
+    }
+    .footer__links {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .footer__projects {
+        padding: 0;
+    }
+    .footer__projects h4 {
+        line-height: 22px;
+    }
+    .footer__contacts-items {
+        padding: 0;
+        margin: 0;
+    }
+    .footer__social-items {
+        left: -18px;
+        margin: 0;
+    }
+    .footer__social-items {
+        text-align: center;
+    }
+    .slide-single {
+        height: 227px;
+        padding-right: 32px;
+    }
+  }
+  
