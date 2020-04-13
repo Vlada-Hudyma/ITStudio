@@ -17,6 +17,9 @@
     width: 68%;
     margin: auto;
     margin-bottom: 50px;
+    @media(max-width:576px) {
+        width: 84%;
+    }
 }
 
 .example__content-title h2 {
@@ -64,4 +67,5 @@
     font-family: Montserrat;
     font-size: 22px;
     color: #FFFFFF;
+    outline: none;
 }

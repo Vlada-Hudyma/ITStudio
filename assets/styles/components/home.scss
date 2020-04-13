@@ -1,4 +1,6 @@
-
+.content {
+  z-index: 1;
+}
 .home {
     display: flex;
     flex-wrap: wrap;
@@ -22,6 +24,12 @@
     justify-content: center;
   & h3 {
     font-size: 31px;
+    @media(max-width:576px) {
+      padding-top: 90px;
+    }
+    @media(max-width:768px) {
+      padding-top: 146px;
+      }
   }
   & h2 {
     font-size: 50px;

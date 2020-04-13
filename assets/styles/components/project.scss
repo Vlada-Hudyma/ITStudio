@@ -3,6 +3,9 @@
     display: flex;
     padding: 84px 0 66px;
     background-color: #fff;
+    @media(max-width:768px) {
+      padding: 45px 0 24px;
+      }
   &-content {
     width: 64%;
     padding-right: 15px;
@@ -57,6 +60,9 @@
 .services__item {
     display: flex;
     margin-right: 40px;
+    @media(max-width:768px) {
+      margin-right: 10px;
+      }
   &-context {
     padding: 0 10px;
     margin: 0;

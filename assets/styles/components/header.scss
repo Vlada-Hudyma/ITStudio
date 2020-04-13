@@ -5,6 +5,9 @@ header {
     left: 0;
     background-color: rgba(148, 136, 136, 0.5);
     z-index: 2;
+    @media(max-width:576px) {
+        height: 70px;
+    }
 }
 
 .container {
@@ -28,12 +31,22 @@ header {
     width: 100%;
     padding-right: 15px;
     padding-left: 90px;
+    @media(max-width:576px) {
+        padding: 0;
+    }
+    @media(max-width:768px) {
+        padding-left: 30px;
+        }
 }
 
 .header-wrap {
     display: flex;
     align-items: center;
     height: 91px;
+    @media(max-width:576px) {
+        height: 73px;
+    }
+    
 }
 
 .site-logo {
@@ -41,11 +54,17 @@ header {
     width: auto;
     height: 38px;
     margin: 0;
+    @media(max-width:576px) {
+        overflow: hidden;
+    }
 }
 
 .main-menu {
     margin-left: auto;
     margin-right: 200px;
+    @media(max-width:768px) {
+        margin: 0 auto;
+        }
 }
 
 .main-menu ul {
@@ -63,11 +82,17 @@ header {
 }
 .main-menu__elements li {
     padding-left: 36px;
+    @media(max-width:576px) {
+        padding-left: 22px;
+    }
 }
 
 .main-menu__element:hover {
     border-bottom: 2px solid #FFFFFF;
     padding-bottom: 36px;
+    @media(max-width:576px) {    
+        padding-bottom: 26px;
+    }
 }
 
 .content {

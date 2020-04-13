@@ -71,14 +71,7 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .standards h2 {
-        color: #e4e3e3;
-        text-align: center;
-    }
-    .standards p {
-        color: #eeecec;
-        text-align: justify;
-    }
+    
     .number {
         color: #e4e3e3;
         font-size: 31px;
@@ -104,23 +97,6 @@ body {
     }
     .key {
         align-self: center;
-    }
-    .mainContent {
-        flex-flow: column wrap;
-        padding-bottom: 6px;
-        margin-bottom: 26px;
-    }
-    .mainContent__item {
-        width: 100%;
-    }
-    .mainContent__item h3 {
-        font-size: 18px;
-        color: rgb(68, 76, 92);
-        text-align: center;
-    }
-    .mainContent__item p {
-        color: #333232;
-        text-align: justify;
     }
     .example__content-title {
         width: 100%;

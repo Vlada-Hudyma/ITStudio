@@ -122,3 +122,47 @@
     justify-content: center;
   }
 
+
+  .toTop {
+    position: fixed;
+    right: 74px;
+    bottom: 60px;
+    width: 50px;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 50%;
+    background-color: rgb(178, 212, 233);
+    opacity: 0.5;
+}
+
+.toTop:hover,
+.toTop:focus {
+    filter: brightness(1.5);
+    outline: none;
+}
+
+.toTop::before,
+.toTop::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.toTop::before {
+    width: 5px;
+    height: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: rgb(77, 77, 199);
+}
+
+.toTop::after {
+    width: 15px;
+    height: 15px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: 5px solid rgb(77, 77, 199);
+    border-left: 5px solid rgb(77, 77, 199);
+}
+

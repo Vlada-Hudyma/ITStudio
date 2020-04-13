@@ -50,15 +50,22 @@
 
 .standards {
     padding-right: 26px;
+    
   & h2 {
     font-size: 36px;
     line-height: 53px;
     color: #323232;
+    @media(max-width:576px) {
+      color: black;
+    }
   }
   & p {
     font-size: 16px;
     line-height: 25px;
     color: #999999;
+    @media(max-width:576px) {
+      color: #6d6d6d;;
+  }
   }
   & a {
     font-size: 16px;

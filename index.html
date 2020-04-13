@@ -1,298 +1,346 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
+    <meta charset="UTF-8">
+    <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
-   <!--  <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="javascript/index.js"></script>
-    <script type="text/javascript" src="javascript/jquery.js"></script>
-    <link rel="stylesheet" href="slick/slick.css"/>
-    <link rel="stylesheet" href="slick/slick-theme.css"/>  
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script defer type="text/javascript" src="javascript/indexJquery.js"></script>
-    <script type="text/javascript" src="javascript/wow.js"></script>
+
+    <link rel="stylesheet" href="./animate.css">
+
+    <script src="wow.min.js"></script>
     <script>
         new WOW().init();
-    </script>-->
+    </script>
 
-  <title>Аdvanced IT studio</title>
 
-  <link href="dist/styles/main.css" type="text/css" rel="stylesheet" media="screen" />
-  <link href="dist/styles/vue.css" type="text/css" rel="stylesheet" media="screen" />
-  <script src="dist/scripts/main.js" type="text/javascript"></script>
-  <script src="dist/scripts/vue.js" type="text/javascript"></script>
+    <title>Аdvanced IT studio</title>
+
+    <link href="dist/styles/main.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="dist/styles/vue.css" type="text/css" rel="stylesheet" media="screen" />
+    <script src="dist/scripts/main.js" type="text/javascript"></script>
+    <script src="dist/scripts/vue.js" type="text/javascript"></script>
 </head>
+
 <body>
-<header>
-  <div class="container">
-    <div class="container-naw">
-        <div class="containet-naw__content">
-            <div class="header-wrap">
-                <img src="./assets/img/logotype.png" alt="logotype" class="site-logo">
-                <nav class="main-menu">
-                    <div class="main-menu__wrapper">
-                        <ul class="main-menu__elements">
-                            <li><a class="main-menu__element" href="#home">HOME</a></li>
-                            <li><a class="main-menu__element" href="#projects">PROJECTS</a></li>
-                            <li><a class="main-menu__element" href="#services">SERVICES</a></li>
-                            <li><a class="main-menu__element" href="#news">NEWS</a></li>
-                            <li><a class="main-menu__element" href="#contacts">CONTACTS</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+    <div class="preloader">
+        <div class="blinds">
+            <img src="./assets/img/itimage.png" alt="" class="blinds__img">
+            <img src="./assets/img/career.jpg" alt="" class="blinds__img">
+            <img src="./assets/img/solution.png" alt="" class="blinds__img">
+            <img src="./assets/img/sfera.png" alt="" class="blinds__img">
         </div>
     </div>
-</div>
-</header>
 
-
-
-<div class="content">
-  
-    <section class="home" style="background-image: url(./assets/img/table.png)">
-        <div class="home-content">
-            <h3 class="title">Advanced IT Studio</h3>
-            <h2 class="title">We create easy solutions to complex problems and problems.</h2>
-        </div>
-    </section>
-
-    <section class="project">
-        <div class="project-content">
-            <div class="title__main">
-                <h4>We create mobile applications for large corporations</h4>
-            </div>
-            <div class="title__second">
-                <p>We cannot say that there are no nuances in the creation of sites. Each client looks at the market in his own way and tries to create his own product with the same approach. Sometimes it can be a completely unique product and in such cases a regular site will be enough. But as practice shows, in every project you need to look for a highlight, which should become the most interesting place in the development of sites.</p>
-            </div>
-            <div class="services__items">
-                <div class="services__items-wrap">
-                    <div class="services__item">
-                        <div class="logo">
-                            <div class="logo__borders">
-                                <div class="logo__border">
-                                    <img src="./assets/img/project.png" alt="logo">
-                                </div>
+    <header>
+        <div class="container">
+            <div class="container-naw">
+                <div class="containet-naw__content">
+                    <div class="header-wrap">
+                        <img src="./assets/img/logotype.png" alt="logotype" class="site-logo">
+                        <nav class="main-menu">
+                            <div class="main-menu__wrapper">
+                                <ul class="main-menu__elements" id="menu">
+                                    <li><a class="main-menu__element" href="#home">HOME</a></li>
+                                    <li><a class="main-menu__element" href="#projects">PROJECTS</a></li>
+                                    <li><a class="main-menu__element" href="#services">SERVICES</a></li>
+                                    <li><a class="main-menu__element" href="#news">NEWS</a></li>
+                                    <li><a class="main-menu__element" href="#contacts">CONTACTS</a></li>
+                                </ul>
                             </div>
-                        </div>
-                        <div class="services__item-context">
-                            <h2>PRESENTATION</h2>
-                            <p>Presentation of a product / service / company at the WOW-level</p>
-                        </div>
-                    </div>
-                    <div class="services__item">
-                        <div class="logo">
-                            <div class="logo__borders">
-                                <div class="logo__border">
-                                    <img src="./assets/img/project.png" alt="logo">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services__item-context">
-                            <h2>SUPPORT</h2>
-                            <p>Image support, brand positioning and detuning from competitors</p>
-                        </div>
-                    </div>
-                    <div class="services__item">
-                        <div class="logo">
-                            <div class="logo__borders">
-                                <div class="logo__border">
-                                    <img src="./assets/img/project.png" alt="logo">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="services__item-context">
-                            <h2>INCREASE</h2>
-                            <p>Increase sales by increasing conversion</p>
-                        </div>
+                        </nav>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 
-    <section class="aboutUs">
-        <div class="aboutUs__wrap">
-            <div class="aboutUs__wrap-content">
-                <div class="topPart">
-                    <div class="standards">
-                    <h2>High development standards</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum iste veniam eaque debitis saepe error veritatis repellendus quas provident voluptatem minus earum, corrupti corporis, amet similique quia, beatae vero omnis?</p>
-                    <a href="#">Company Details</a>
-                    </div>
-                    <div class="picture">
-                    <img src="./assets/img/stansarts.png" alt="standards">
-                    </div>
+
+
+    <div class="content">
+
+        <section class="home" style="background-image: url(./assets/img/table.png)">
+            <div class="home-content">
+                <h3 class="title">Advanced IT Studio</h3>
+                <h2 class="title">We create easy solutions to complex problems and problems.</h2>
+            </div>
+        </section>
+
+        <section class="project">
+            <div class="project-content">
+                <div class="title__main">
+                    <h4>We create mobile applications for large corporations</h4>
                 </div>
-
-                <div class="counter">
-                    <div class="counter__number">
-                        <div class="counter__number-image">
-                            <img src="./assets/img/ourProject.png" alt="ourProject">
-                            <div data-num = "10" class="number">0</div>
+                <div class="title__second">
+                    <p>We cannot say that there are no nuances in the creation of sites. Each client looks at the market
+                        in his own way and tries to create his own product with the same approach. Sometimes it can be a
+                        completely unique product and in such cases a regular site will be enough. But as practice
+                        shows, in every project you need to look for a highlight, which should become the most
+                        interesting place in the development of sites.</p>
+                </div>
+                <div class="services__items">
+                    <div class="services__items-wrap">
+                        <div class="services__item">
+                            <div class="logo">
+                                <div class="logo__borders">
+                                    <div class="logo__border">
+                                        <img src="./assets/img/project.png" alt="logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services__item-context">
+                                <h2>PRESENTATION</h2>
+                                <p>Presentation of a product / service / company at the WOW-level</p>
+                            </div>
                         </div>
-                        <p>Years on the market</p>
-                    </div>
-                    <div class="counter__number">
-                        <div class="counter__number-image">
-                            <img src="./assets/img/ourProject.png" alt="ourProject">
-                            <div data-num = "10" class="number">0</div>
+                        <div class="services__item">
+                            <div class="logo">
+                                <div class="logo__borders">
+                                    <div class="logo__border">
+                                        <img src="./assets/img/project.png" alt="logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services__item-context">
+                                <h2>SUPPORT</h2>
+                                <p>Image support, brand positioning and detuning from competitors</p>
+                            </div>
                         </div>
-                        <p>Customers</p>
-                    </div>
-                    <div class="counter__number">
-                        <div class="counter__number-image">
-                            <img src="./assets/img/ourProject.png" alt="ourProject">
-                            <div data-num = "10" class="number">0</div>
+                        <div class="services__item">
+                            <div class="logo">
+                                <div class="logo__borders">
+                                    <div class="logo__border">
+                                        <img src="./assets/img/project.png" alt="logo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services__item-context">
+                                <h2>INCREASE</h2>
+                                <p>Increase sales by increasing conversion</p>
+                            </div>
                         </div>
-                        <p>Years warranty</p>
-                    </div>
-                    <div class="counter__number">
-                        <div class="counter__number-image">
-                            <img src="./assets/img/ourProject.png" alt="ourProject">
-                            <div data-num = "10" class="number">0</div>
-                        </div>
-                        <p>Successful projects</p>
-                    </div>
-                    <div class="counter__number">
-                        <div class="counter__number-image">
-                            <img src="./assets/img/ourProject.png" alt="ourProject">
-                            <div data-num = "10" class="number">0</div>
-                        </div>
-                        <p>Team people</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="work">
-        <div class="work__wrap">
+        <section class="aboutUs">
+            <div class="aboutUs__wrap">
+                <div class="aboutUs__wrap-content">
+                    <div class="topPart">
+                        <div class="standards">
+                            <h2>High development standards</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum iste veniam eaque debitis
+                                saepe error veritatis repellendus quas provident voluptatem minus earum, corrupti
+                                corporis, amet similique quia, beatae vero omnis?</p>
+                            <a href="#">Company Details</a>
+                        </div>
+                        <div class="picture">
+                            <img src="./assets/img/stansarts.png" alt="standards">
+                        </div>
+                    </div>
+
+                    <div class="counter" id="counter">
+                        <div class="counter__number">
+                            <div class="counter__number-image">
+                                <img src="./assets/img/ourProject.png" alt="ourProject">
+                                <div data-num="10" class="number">0</div>
+                            </div>
+                            <p>Years on the market</p>
+                        </div>
+                        <div class="counter__number">
+                            <div class="counter__number-image">
+                                <img src="./assets/img/ourProject.png" alt="ourProject">
+                                <div data-num="319" class="number">0</div>
+                            </div>
+                            <p>Customers</p>
+                        </div>
+                        <div class="counter__number">
+                            <div class="counter__number-image">
+                                <img src="./assets/img/ourProject.png" alt="ourProject">
+                                <div data-num="5" class="number">0</div>
+                            </div>
+                            <p>Years warranty</p>
+                        </div>
+                        <div class="counter__number">
+                            <div class="counter__number-image">
+                                <img src="./assets/img/ourProject.png" alt="ourProject">
+                                <div data-num="400" class="number">0</div>
+                            </div>
+                            <p>Successful projects</p>
+                        </div>
+                        <div class="counter__number">
+                            <div class="counter__number-image">
+                                <img src="./assets/img/ourProject.png" alt="ourProject">
+                                <div data-num="27" class="number">0</div>
+                            </div>
+                            <p>Team people</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="work">
+            <div class="work__wrap">
                 <div class="work__content">
                     <div class="heading">
                         <h2>Our work in which we specialize</h2>
-                        <a class="key" href="#"> <p>All services</p></a>
+                        <a class="key" href="#">
+                            <p>All services</p>
+                        </a>
                     </div>
                     <div class="mainContent">
                         <div class="mainContent__item">
                             <img src="./assets/img/work.png" alt="project">
                             <h3>01. Research and packaging</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ullam fuga dolores optio, repudiandae, ex aut a voluptatibus expedita perspiciatis voluptatem incidunt quisquam at, sit vitae dicta cum officiis rerum!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ullam fuga dolores optio,
+                                repudiandae, ex aut a voluptatibus expedita perspiciatis voluptatem incidunt quisquam
+                                at, sit vitae dicta cum officiis rerum!</p>
                         </div>
                         <div class="mainContent__item">
                             <img src="./assets/img/work.png" alt="project">
                             <h3>01. Research and packaging</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nesciunt delectus doloribus libero mollitia veniam nostrum dicta soluta, nihil voluptatibus commodi possimus, amet, animi numquam hic culpa non dolor assumenda.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nesciunt delectus
+                                doloribus libero mollitia veniam nostrum dicta soluta, nihil voluptatibus commodi
+                                possimus, amet, animi numquam hic culpa non dolor assumenda.</p>
                         </div>
                         <div class="mainContent__item">
                             <img src="./assets/img/work.png" alt="project">
                             <h3>01. Research and packaging</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est incidunt totam, deserunt facilis recusandae sunt id doloremque dicta ipsum expedita dolorum quod numquam praesentium asperiores minima temporibus voluptatum amet quas?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est incidunt totam, deserunt
+                                facilis recusandae sunt id doloremque dicta ipsum expedita dolorum quod numquam
+                                praesentium asperiores minima temporibus voluptatum amet quas?</p>
                         </div>
                     </div>
                 </div>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <section class="example">
-        <div class="example__wrap">
-            <div class="example__content">
-                <div class="example__content-title">
-                    <h2>Our projects</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias quod tempore voluptatem sapiente animi perferendis voluptas numquam ea ipsam earum inventore blanditiis mollitia nulla obcaecati, ex sed culpa ab.</p>
+        <section class="example">
+            <div class="example__wrap">
+                <div class="example__content">
+                    <div class="example__content-title">
+                        <h2>Our projects</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque molestias quod tempore
+                            voluptatem sapiente animi perferendis voluptas numquam ea ipsam earum inventore blanditiis
+                            mollitia nulla obcaecati, ex sed culpa ab.</p>
+                    </div>
+                    <div class="example__content-gallery">
+                        <div id="slider">
+                            <div id="rio"><img src="https://vintage.com.ua/uploads/0/72-rio_2.jpg" class="slide-single"
+                                    alt=" "></div>
+                            <div id="copout"><img src="https://vintage.com.ua/uploads/0/33-10_copout.gif"
+                                    class="slide-single" alt=" "></div>
+                            <div id="concord"><img src="https://vintage.com.ua/uploads/0/27-concord.jpg"
+                                    class="slide-single" alt=" "></div>
+                            <div id="rio"><img src="https://vintage.com.ua/uploads/0/72-rio_2.jpg" class="slide-single"
+                                    alt=" "></div>
+                            <div id="copout"><img src="https://vintage.com.ua/uploads/0/33-10_copout.gif"
+                                    class="slide-single" alt=" "></div>
+                            <div id="concord"><img src="https://vintage.com.ua/uploads/0/27-concord.jpg"
+                                    class="slide-single" alt=" "></div>
+                        </div>
+                    </div>
+                    <div class="example__content-button">
+                        <button id="slider-left">Next</button>
+                    </div>
+
                 </div>
-                <div class="example__content-gallery">
-                    <div id="slider">
-                        <div id="rio"><img src="https://vintage.com.ua/uploads/0/72-rio_2.jpg" class="slide-single" alt=" "></div>
-                        <div id="copout"><img src="https://vintage.com.ua/uploads/0/33-10_copout.gif" class="slide-single" alt=" "></div>
-                        <div id="concord"><img src="https://vintage.com.ua/uploads/0/27-concord.jpg" class="slide-single" alt=" "></div>
-                        <div id="rio"><img src="https://vintage.com.ua/uploads/0/72-rio_2.jpg" class="slide-single" alt=" "></div>
-                        <div id="copout"><img src="https://vintage.com.ua/uploads/0/33-10_copout.gif" class="slide-single" alt=" "></div>
-                        <div id="concord"><img src="https://vintage.com.ua/uploads/0/27-concord.jpg" class="slide-single" alt=" "></div>
+            </div>
+        </section>
+
+        <section class="video">
+            <div class="video__wrap" style="background-image: url(./assets/img/video.png)">
+                <div class="video__content">
+                    <div class="video__content-title">
+                        <h2>Video about our work</h2>
+                        <p>Just see how we work.</p>
+                        <iframe width="660" height="355" src="https://www.youtube.com/embed/iXEGxEjtyH4" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+
+                    <div class="video__content-mailing">
+                        <h3>Subscribe to our newsletter</h3>
+                        <p>Useful articles, promotions, news - get it all now!</p>
+                        <form id="asd_subscribe_form" method="post" action="/">
+                            <div class="submit_group">
+                                <input type="text" placeholder="Enter your e-mail" value="" id="enter_email"
+                                    name="asd_email">
+                                <input type="submit" value="Follow" id="asd_subscribe_submit" name="asd_submit">
+                            </div>
+                        </form>
+                        <h5>We do not send spam, and we share your data with anyone.</h5>
                     </div>
                 </div>
-                <div class="example__content-button">
-                    <button id="slider-left">Next</button>
-                </div>
-
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
-    <section class="video">
-        <div class="video__wrap" style="background-image: url(./assets/img/video.png)">
-            <div class="video__content">
-                <div class="video__content-title">
-                    <h2>Video about our work</h2>
-                    <p>Just see how we work.</p>
-                    <iframe width="660" height="355" src="https://www.youtube.com/embed/iXEGxEjtyH4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
-                <div class="video__content-mailing">
-                    <h3>Subscribe to our newsletter</h3>
-                    <p>Useful articles, promotions, news - get it all now!</p>
-                    <form id="asd_subscribe_form" method="post" action="/">
-                        <div class="submit_group">
-                            <input type="text" placeholder="Enter your e-mail" value="" id = "enter_email" name="asd_email">
-                            <input type="submit" value="Follow" id="asd_subscribe_submit" name="asd_submit">
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__content">
+                <div class="footer__content-row">
+                    <div class="footer__all">
+                        <div class="footer__contacts">
+                            <div class="footer__contacts-title">
+                                <h4>Contact Information</h4>
+                            </div>
+                            <ul class="footer__contacts-items">
+                                <li class="footer__contacts-item"><a href="tel:380963092145"> +38 (096) 309 21 45</a>
+                                </li>
+                                <li class="footer__contacts-item"><a
+                                        href="mailto:layout585@gmail.com">layout585@gmail.com</a></li>
+                                <li class="footer__contacts-item"><a href="#"> Киев, ул.Пушкиной, 13</a></li>
+                            </ul>
+                            <div class="footer__social">
+                                <ul class="footer__social-items">
+                                    <li class="footer__social-item"><a href="https://www.instagram.com/ciklum/"
+                                            target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                    <li class="footer__social-item"><a
+                                            href="https://www.facebook.com/Ciklum.International" target="_blank"><i
+                                                class="fa fa-facebook"></i></a></li>
+                                    <li class="footer__social-item"><a href="https://twitter.com/ciklum"
+                                            target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </form>
-                    <h5>We do not send spam, and we share your data with anyone.</h5>
+                        <div class="footer__links">
+                            <div class="footer__links-title">
+                                <h4>Contact Information</h4>
+                            </div>
+                            <ul class="footer__links-items">
+                                <li class="footer__links-item"><a href="#">Home</a></li>
+                                <li class="footer__links-item"><a href="#">Our projects</a></li>
+                                <li class="footer__links-item"><a href="#"> Our services</a></li>
+                                <li class="footer__links-item"><a href="#"> Contacts</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__projects">
+                            <div class="footer__projects-title">
+                                <h4>Our projects</h4>
+                            </div>
+                            <ul class="footer__projects-items">
+                                <li class="footer__projects-item"><a href="#">РосНано</a></li>
+                                <li class="footer__projects-item"><a href="#">Сколково</a></li>
+                                <li class="footer__projects-item"><a href="#">Проект "Восток"</a></li>
+                                <li class="footer__projects-item"><a href="#">ТЭЦ Киева</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+                <p>(с) 2020. All rights reserved.</p>
             </div>
         </div>
-    </section>
+    </footer>
+    <a href="#" class="toTop"></a>
 </div>
-
-
-
-<footer class="footer">
-  <div class="footer__wrapper">
-      <div class="footer__content">
-          <div class="footer__content-row">
-              <div class="footer__all">
-                  <div class="footer__contacts">
-              <div class="footer__contacts-title"> <h4>Contact Information</h4></div>
-              <ul class="footer__contacts-items">
-                  <li class="footer__contacts-item"><a href="tel:380963092145">  +38 (096) 309 21 45</a></li>
-                  <li class="footer__contacts-item"><a href="mailto:layout585@gmail.com">layout585@gmail.com</a></li>
-                  <li class="footer__contacts-item"><a href="#"> Киев, ул.Пушкиной, 13</a></li>
-              </ul>
-              <div class="footer__social">
-                  <ul class="footer__social-items">
-                      <li class="footer__social-item"><a href="https://www.instagram.com/ciklum/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                      <li class="footer__social-item"><a href="https://www.facebook.com/Ciklum.International" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                      <li class="footer__social-item"><a href="https://twitter.com/ciklum" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                  </ul>
-              </div>
-                  </div>
-                  <div class="footer__links">
-                      <div class="footer__links-title"> <h4>Contact Information</h4></div>
-                      <ul class="footer__links-items">
-                          <li class="footer__links-item"><a href="#">Home</a></li>
-                          <li class="footer__links-item"><a href="#">Our projects</a></li>
-                          <li class="footer__links-item"><a href="#"> Our services</a></li>
-                          <li class="footer__links-item"><a href="#"> Contacts</a></li>
-                      </ul>
-                  </div>
-                  <div class="footer__projects">
-                      <div class="footer__projects-title"> <h4>Our projects</h4></div>
-                      <ul class="footer__projects-items">
-                          <li class="footer__projects-item"><a href="#">РосНано</a></li>
-                          <li class="footer__projects-item"><a href="#">Сколково</a></li>
-                          <li class="footer__projects-item"><a href="#">Проект "Восток"</a></li>
-                          <li class="footer__projects-item"><a href="#">ТЭЦ Киева</a></li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
-          <p>(с) 2020. All rights reserved.</p>
-      </div>
-  </div>
-</footer>
-<!-- <script type="text/javascript" src="javascript/index.js"></script>-->
 </body>
+
 </html>
